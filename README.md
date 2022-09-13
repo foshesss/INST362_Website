@@ -2,13 +2,13 @@
 This website was created for a class project. Alternative options were to use website builders, but they're mad restricting.
 
 ## How to run locally
-Clone to repository and once it's downloaded, navigate to it in your terminal and type these two commands:
+Clone this repository and once it's downloaded, navigate to it in your terminal. Then, type these two commands:
 ```
 npm i
 npm start
 ```
 
-`npm i` will install all dependencies the project uses.
+`npm i` will install all dependencies that the project uses.
 `npm start` will run the website locally.
 
 After you're installed all dependencies, you can use npm start whenever you want.
