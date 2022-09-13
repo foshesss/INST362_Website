@@ -9,19 +9,21 @@
 }
 
 .navbar-header button {
-    padding-left: 1.5em;
+    margin-left: 1em;
+    color: black;
     font-size: 1.1em;
     border: none;
 }
 
 @media (hover) {
     .navbar-header button {
-        transition: all 125ms ease-out;
         cursor: pointer;
+        transform: scale(.95);
+        transition: all 125ms ease-out;
     }
 
     .navbar-header button:hover {
-        transform: scale(1.05);
+        transform: scale(1);
         color: var(--theme-blue);
     }
 }
