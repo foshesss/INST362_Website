@@ -17,12 +17,12 @@ const Hero = () => {
                             <HeroNavButton
                                 text='Problem'
                             />
-                            <HeroNavButton
+                            {/* <HeroNavButton
                                 text='Research'
                             />
                             <HeroNavButton
                                 text='Solution'
-                            />
+                            /> */}
                             <HeroNavButton
                                 text='Team'
                             />

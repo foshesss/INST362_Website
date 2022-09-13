@@ -78,11 +78,15 @@
     }
 
     #eliminar {
-        transition: all 125ms ease-out;
+        display: inline-block; 
+        transition:
+            color 125ms ease-out,
+            transform 125ms ease-out;
     }
 
     #eliminar:hover {
         color: red;
+        transform: scale(1.05);
     }
 }
 
