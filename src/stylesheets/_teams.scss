@@ -1,0 +1,36 @@
+.team-members {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center; // center about X
+    align-items: center; // center about Y
+    flex-direction: column;
+}
+
+.team-header {
+    h2 {
+        font-size: clamp(2.25rem, 5vw, 3rem);
+    }
+
+    p {
+        font-size: clamp(1.125rem, 2.5vw, 1.4rem);
+        margin-top: .5em;
+        margin-bottom: 1.5em;
+    }
+}
+
+.team-members-list ul {
+    list-style: none;
+    column-width: 50%;
+    li {
+        font-size: 1.1rem;
+        padding: .75em 0;
+        font-weight: bold;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-top: -1px;
+    }
+}
+
+.team-members > * {
+    width: 100%;
+}

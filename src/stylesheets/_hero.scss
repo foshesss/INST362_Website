@@ -1,0 +1,94 @@
+.hero-section {
+    display: flex;
+    justify-content: center; // center about X
+    align-items: center; // center about Y
+    isolation: isolate;
+}
+
+.hero-subsection {
+    width: 100%;
+    max-width: 625px;
+}
+
+.hero-left {
+    background: white;
+
+    h1 {
+        font-size: clamp(2.25rem, 5vw, 3rem);
+    }
+    
+    p {
+        font-size: clamp(1.125rem, 2.5vw, 1.4rem);
+        margin-top: .5em;
+        margin-bottom: 1.5em;
+    }
+}
+
+.hero-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.hero-nav-button {
+    width: 100%;
+    margin-bottom: .4em;
+
+    button {
+        width: 100%;
+
+        padding: .5em 0;
+        border: 2px solid var(--theme-blue);
+        border-radius: .33em;
+        
+        background: var(--theme-blue);
+
+        color: white;
+        font-size: clamp(1rem, 3.5vw, 1.05rem);
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.hero-right {
+   display: none;
+
+   img {
+        width: 100%;
+        aspect-ratio: 1;
+    }
+}
+
+// non-mobile devices
+@media (hover) {
+    .hero-nav-button button {
+        transition:
+            background 150ms ease-out,
+            color 150ms ease-out
+    }
+
+    .hero-nav-button button:hover {
+        background: white;
+        color: var(--theme-blue);
+    }
+}
+
+// display right side of hero page when screen is large enough
+@media (min-width: 600px) {
+    .hero-right {
+        display: block;
+    }
+}
+
+// change row lineup
+@media (min-width: 1000px) {
+    .hero-nav {
+        flex-direction: row;
+    
+        li {
+            margin-inline-end: .4em;
+            margin-bottom: 0;
+        }
+    }
+}
