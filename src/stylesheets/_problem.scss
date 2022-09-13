@@ -1,13 +1,13 @@
 .problem-section {
     background: var(--theme-lightgray);
-    padding: 2.5em 1.5em;
+    padding: 5em 1.5em;
 }
 
 .problem-header {
     margin: auto;
     text-align: center;
     h2 {
-        font-size: clamp(2.25rem, 5vw, 3rem);
+        font-size: clamp(2.25rem, 7.5vw, 4.5rem);
     }
 
     p {

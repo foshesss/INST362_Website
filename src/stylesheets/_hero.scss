@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center; // center about X
     align-items: center; // center about Y
+    flex-direction: column-reverse;
     isolation: isolate;
-
     padding: 7em 1.5em;
+    padding-top: 3.5em;
 }
 
 .hero-subsection {
     width: 100%;
-    max-width: 625px;
+    max-width: 600px;
 }
 
 .hero-left {
@@ -54,10 +55,11 @@
 }
 
 .hero-right {
-   display: none;
-
-   img {
-        width: 100%;
+    display: flex;
+    justify-content: center; // center about X
+    align-items: center;
+    img {
+        width: 175px;
         aspect-ratio: 1;
     }
 }
@@ -86,8 +88,17 @@
 
 // display right side of hero page when screen is large enough
 @media (min-width: 600px) {
+
+    .hero-section {
+        padding-top: 7em;
+        flex-direction: row;
+    }
+
     .hero-right {
         display: block;
+        img {
+            width: 100%;
+        }
     }
 }
 

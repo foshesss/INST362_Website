@@ -18,6 +18,12 @@ const Hero = () => {
                                 text='Problem'
                             />
                             <HeroNavButton
+                                text='Research'
+                            />
+                            <HeroNavButton
+                                text='Solution'
+                            />
+                            <HeroNavButton
                                 text='Team'
                             />
                         </ul>
