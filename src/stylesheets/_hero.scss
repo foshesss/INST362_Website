@@ -74,6 +74,14 @@
         background: white;
         color: var(--theme-blue);
     }
+
+    #eliminar {
+        transition: all 125ms ease-out;
+    }
+
+    #eliminar:hover {
+        color: red;
+    }
 }
 
 // display right side of hero page when screen is large enough

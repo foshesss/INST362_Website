@@ -6,10 +6,11 @@ const Hero = () => {
         <section className='hero-section' id='hero'>
             <section className='hero-subsection'>
                 <div className='hero-left'>
-                    <h1>Together, we will eliminate food waste.</h1>
+                    <h1>Together, we will <span id='eliminar'>eliminate</span> food waste.</h1>
                     <p>
                         We are a team that's dedicated to finding solutions that 
-                        will eliminate food waste in University of Maryland dining halls.
+                        will eliminate food waste in University of
+                        Maryland dining halls.
                     </p>
                     <nav>
                         <ul className='hero-nav'>

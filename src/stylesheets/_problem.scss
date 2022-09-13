@@ -1,10 +1,10 @@
 .problem-section {
     background: var(--theme-lightgray);
+    padding: 2.5em 1.5em;
 }
 
 .problem-header {
     margin: auto;
-    padding-top: 3em;
     text-align: center;
     h2 {
         font-size: clamp(2.25rem, 5vw, 3rem);
@@ -16,3 +16,32 @@
         width: clamp(70%, 500px, calc(100% - 1em))
     }
 }
+
+.problems-container {
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: center; // center about X
+    flex-wrap: wrap;
+
+}
+
+.problem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 1.25em;
+    margin-bottom: 2em;
+    text-align: center;
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    img {
+        max-width: 125px;
+        margin-bottom: 1.25em;
+    }
+}
+
