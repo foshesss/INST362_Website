@@ -3,7 +3,7 @@ import HeroNavButton from "./HeroNavButton";
 
 const Hero = () => {
     return (
-        <section className='hero-section page-section'>
+        <section className='hero-section' id='hero'>
             <section className='hero-subsection'>
                 <div className='hero-left'>
                     <h1>Together, we will eliminate food waste.</h1>

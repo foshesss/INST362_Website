@@ -1,7 +1,7 @@
 import React from "react";
 
 const Team = () => (
-    <section className='team-members page-section' id='team'>
+    <section className='team-members' id='team'>
         <header className='team-header'>
             <h2>Team Members</h2>
             <p>

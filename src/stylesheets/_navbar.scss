@@ -1,14 +1,27 @@
 .navbar {
-    border-bottom: 1px solid var(--theme-gray);
-}
-
-.navbar {
+    z-index: 9001;
+    position: fixed;
     display: flex;
     align-content: center;
-    padding: 1em 0;
-    margin-bottom: 4.75em;
+    padding: .9em 0;
+    background: white;
+    width: 100%;
 }
 
-.navbar-header h1 {
-    padding-left: 1em;
+.navbar-header button {
+    padding-left: 1.5em;
+    font-size: 1.1em;
+    border: none;
+}
+
+@media (hover) {
+    .navbar-header button {
+        transition: all 125ms ease-out;
+        cursor: pointer;
+    }
+
+    .navbar-header button:hover {
+        transform: scale(1.05);
+        color: var(--theme-blue);
+    }
 }
