@@ -2,6 +2,7 @@
 @import './hero';
 @import './problem';
 @import './teams';
+@import './affinity';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -23,4 +24,16 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;/* Non-prefixed version, currently
             supported by Chrome, Edge, Opera and Firefox */
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.bar {
+  margin: 5rem auto;
+  width: 90%;
+  height: 1px;
+  background: rgba(23,23,23,.5);
 }

@@ -1,0 +1,43 @@
+#affinity-header {
+    margin: 4rem 0;
+}
+
+#affinity-header > h2 {
+    margin: auto;
+    text-align: center;
+    font-size: clamp(2.25rem, 7.5vw, 4.5rem);
+}
+
+#affinity-container {
+    display: flex;
+    margin: 0 auto;
+    width: max(95%, 300px);
+}
+
+#affinity-container > * {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+#affinity-container h2 {
+    font-size: 2.25vw;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+#affinity-container h3 {
+    font-size: 1.5vw;
+    margin: .45rem auto;
+    width: 97.5%;
+}
+
+#affinity-analysis > p {
+    margin-bottom: 1rem;
+}
+
+
+#affinity-images > img {
+    display: block;;
+    width: 95%;
+    margin: 0 auto;
+}
