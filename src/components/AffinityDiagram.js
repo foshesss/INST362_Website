@@ -42,14 +42,20 @@ const AffinityDiagram = () => (
 
                 <h3>User Needs</h3>
                 <p>
-                    <span className='tab'/>Throughout the interview process, we have learned a lot. Originally, we had determined that 
-                    the problem was food was being wasted and that there were no programs to mitigate this. 
-                    After interviewing the dining staff, we learned that there are actually programs to tackle this problem. 
-                    In specific, the Green Initiative, which is a program that make sure food is sustainably sourced. 
-                    Food Recovery network picks up some extra food and gives it to specific  However, this program is 
-                    completely reliant on volunteers, so if there are no volunteers, it does not function. In addition, as 
-                    we’ve discussed with students, we have learned that they need shorter lines– it is too long. 
-                    Some students are so upset about it that they even offered suggestions to mitigate this problem. 
+                    <span className='tab'/>	Throughout the interview process, we have learned a lot. Originally, we had 
+                    determined that the problem was food being wasted and that there were no programs to mitigate this. 
+                    After interviewing the dining staff, we have learned that there are programs to tackle this problem. 
+                    In specific, the Green Initiative and the Food Recovery Network. The Green Initiative is a program that 
+                    makes sure food is sustainably sourced and the Food Recovery Network picks up some extra food to feed people. 
+                    While these programs are beneficial, we discovered a new problem. They are completely reliant on volunteers, 
+                    so if there are no volunteers, they cannot function. 
+                    <br></br>
+                    <span className='tab'/> In addition, we’ve also discussed with students, 
+                    the primary users of dining halls on campus. We learned that they are upset with long lines and over-crowdedness. 
+                    Some students are so upset about them that they even offered suggestions in an attempt to mitigate the problem. 
+                    One solution that was given is to place a time limit on people eating in the dining halls– 
+                    kicking them out if they exceed their allotted time.
+
                 </p>
 
                 <h3>Pain Points</h3>
