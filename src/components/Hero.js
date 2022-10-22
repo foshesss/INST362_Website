@@ -20,9 +20,9 @@ const Hero = () => {
                             <HeroNavButton
                                 text='Affinity Diagram'
                             />
-                            {/* <HeroNavButton
-                                text='Solution'
-                            /> */}
+                            <HeroNavButton
+                                text='Personas'
+                            />
                             <HeroNavButton
                                 text='Team'
                             />

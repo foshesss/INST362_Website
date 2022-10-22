@@ -1,0 +1,53 @@
+#personas {
+    background: var(--theme-lightgray);
+    padding: 5em 1.5em;
+}
+
+#persona-example-bar {
+    margin: 2rem auto;
+    width: 90%;
+    height: 1px;
+    background: rgba(23,23,23,.5);
+  }
+
+#persona-examples {
+    margin: 1rem;
+}
+
+.persona-example > img {
+    display: block;
+    margin: 1rem 0;
+    width: min(50%, 500px);
+}
+
+.persona-example > h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.persona-example h4 {
+    font-size: 1.5rem;
+    margin: .4rem 0;
+    display: block;
+}
+
+.persona-example-lists ul {
+    display: block;
+    padding-left: 2rem;
+}
+
+.persona-example-lists {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.persona-example-lists > * {
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .persona-example-lists {
+        display: flex;
+        flex-direction: column;
+    }
+}

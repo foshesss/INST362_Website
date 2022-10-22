@@ -90,8 +90,6 @@ const AffinityDiagram = () => (
                 </p>
             </div>
         </section>
-        <div className='bar'></div>
-
     </section>
 );
 
