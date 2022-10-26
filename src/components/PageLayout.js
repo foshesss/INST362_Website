@@ -5,6 +5,7 @@ import About from "./Problem";
 import Team from "./Team";
 import AffinityDiagram from "./AffinityDiagram";
 import Personas from "./Personas";
+import TenTen from "./TenTen";
 
 const PageLayout = () => (
     <div className='page-layout'>
@@ -13,6 +14,7 @@ const PageLayout = () => (
         <About />
         <AffinityDiagram />
         <Personas />
+        <TenTen />
         <Team />
     </div>
 );

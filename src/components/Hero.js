@@ -26,6 +26,9 @@ const Hero = () => {
                             <HeroNavButton
                                 text='Team'
                             />
+                            <HeroNavButton
+                                text='10+10 Diagram'
+                            />
                         </ul>
                     </nav>
                 </div>

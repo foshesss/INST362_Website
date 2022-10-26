@@ -1,0 +1,37 @@
+.tenten {
+    margin: 0 2rem;
+}
+
+.tenten > img {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#tenten-header {
+    margin: 2rem;
+}
+
+#tenten-header > h1 {
+    font-size: clamp(2.25rem, 5vw, 3rem);
+    text-align: center;
+}
+
+#tenten-header > p {
+    text-align: center;
+}
+
+#tenten-header > ul > li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+#tenten-header {
+    list-style-type: none;
+}
+
+
+#tenten-header > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
