@@ -29,6 +29,12 @@ const Hero = () => {
                             <HeroNavButton
                                 text='10+10 Diagram'
                             />
+                            <HeroNavButton
+                                text='Make-a-thon'
+                            />
+                            <HeroNavButton
+                                text='Usability Test Script and Scenarios'
+                            />
                         </ul>
                     </nav>
                 </div>

@@ -6,6 +6,8 @@ import Team from "./Team";
 import AffinityDiagram from "./AffinityDiagram";
 import Personas from "./Personas";
 import TenTen from "./TenTen";
+import Makeathon from "./Makeathon";
+import UsabilityTest from "./UsabilityTestPlan";
 
 const PageLayout = () => (
     <div className='page-layout'>
@@ -15,6 +17,8 @@ const PageLayout = () => (
         <AffinityDiagram />
         <Personas />
         <TenTen />
+        <Makeathon />
+        <UsabilityTest />
         <Team />
     </div>
 );
