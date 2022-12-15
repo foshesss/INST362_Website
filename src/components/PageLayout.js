@@ -1,7 +1,9 @@
 import React from "react";
 import NavBar from "./NavBar";
-import About from "./Problem";
 import HomePage from "./HomePage";
+import AffinityDiagram from "./AffinityDiagram";
+import Personas from "./Personas";
+import TenTen from "./TenTen";
 
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 
@@ -11,7 +13,9 @@ const PageLayout = () => (
             <NavBar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/affinity" element={<AffinityDiagram />} />
+                <Route path="/personas" element={<Personas />} />
+                <Route path="/ten-ten" element={<TenTen />} />
             </Routes>
         </Router>
     </div>

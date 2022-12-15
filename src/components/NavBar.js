@@ -12,6 +12,9 @@ const NavBar = () => (
 
         <div>
             <Link to="/">Home</Link>
+            <Link to="/affinity">Affinity Diagram</Link>
+            <Link to="/personas">Personas</Link>
+            <Link to="/ten-ten">10+10 Diagram</Link>
         </div>
     </nav>
 );
