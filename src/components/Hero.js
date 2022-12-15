@@ -1,5 +1,4 @@
 import React from "react";
-import HeroNavButton from "./HeroNavButton";
 
 const Hero = () => {
     return (
@@ -12,31 +11,6 @@ const Hero = () => {
                         will eliminate food waste in University of
                         Maryland dining halls.
                     </p>
-                    <nav>
-                        <ul className='hero-nav'>
-                            <HeroNavButton
-                                text='Problem'
-                            />
-                            <HeroNavButton
-                                text='Affinity Diagram'
-                            />
-                            <HeroNavButton
-                                text='Personas'
-                            />
-                            <HeroNavButton
-                                text='Team'
-                            />
-                            <HeroNavButton
-                                text='10+10 Diagram'
-                            />
-                            <HeroNavButton
-                                text='Make-a-thon'
-                            />
-                            <HeroNavButton
-                                text='Usability Test Script and Scenarios'
-                            />
-                        </ul>
-                    </nav>
                 </div>
             </section>
             <section className='hero-right hero-subsection'>

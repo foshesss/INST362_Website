@@ -1,8 +1,6 @@
 import React from "react";
 
 const Problem = () => {
-
-
     return (
         <section className='problem-section page-section' id='problem'>
             <header className='problem-header'>
