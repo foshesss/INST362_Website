@@ -1,7 +1,8 @@
 import React from "react";
 import NavBar from "./NavBar";
-import About from "./Problem";
+import Makeathon from "./Makeathon";
 import HomePage from "./HomePage";
+import UsabilityTest from "./UsabilityTestPlan"
 
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 
@@ -11,7 +12,8 @@ const PageLayout = () => (
             <NavBar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/makeathon" element={<Makeathon />} />
+                <Route path="usability-test-plan" element={<UsabilityTest />} />
             </Routes>
         </Router>
     </div>
