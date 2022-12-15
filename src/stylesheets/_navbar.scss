@@ -1,6 +1,11 @@
 .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
     z-index: 9001;
-    position: fixed;
+    // position: fixed;
     display: flex;
     align-content: center;
     padding: .9em 0;
@@ -8,11 +13,24 @@
     width: 100%;
 }
 
+.navbar > * {
+    margin: 0 1em;
+}
+
 .navbar-header button {
-    margin-left: 1em;
     color: black;
     font-size: 1.1em;
     border: none;
+}
+
+#navbar-list > * {
+    padding: 0 .5rem;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar-list > *:hover {
+    color: blue;
 }
 
 @media (hover) {
