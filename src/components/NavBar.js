@@ -15,6 +15,8 @@ const NavBar = () => (
             <Link to="/affinity">Affinity Diagram</Link>
             <Link to="/personas">Personas</Link>
             <Link to="/ten-ten">10+10 Diagram</Link>
+            <Link to="/makeathon">Makeathon</Link>
+            <Link to="/usability-test-plan">Usability Test Plan</Link>
         </div>
     </nav>
 );
