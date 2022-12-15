@@ -14,6 +14,7 @@ const PageLayout = () => (
         <Router>
             <NavBar />
             <Routes>
+                <Route path="*" element={<HomePage />} />
                 <Route path="/" element={<HomePage />} />
                 <Route path="/affinity" element={<AffinityDiagram />} />
                 <Route path="/personas" element={<Personas />} />
